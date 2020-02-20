@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #155865;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.3rem;
+}
+
+footer {
+	font-size: 0.7em;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #32323D;
+	padding: 20px 50px;
+	margin-top: 280px;
+}
+
+h1 {
+	padding: 20px 50px;
+}
+
+h2 {
+	text-align: center;
+	padding: 20px 50px;
+	margin-top: 20px;
+}
+
+p {
+	text-align: center;
+	padding: 20px 50px;
+	margin-top: 20px;
+}
+
+a {
+	color: #c9bcbb;
+	padding-right: 20px;
+}
+
+a:link {
+	color: #c9bcbb;
+	padding-right: 20px;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-size: 1.05em;
+	color: rgb(201, 188, 187);
+}
+
+img {
+	width: 300px;
+	heigth: 300px;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+}
+
+li {
+	font-size: 0.7em;
+	list-style: none;
+}
+
+.card-body p {
+	font-size: 0.5em;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	max-height: 50px;
+}
+
+.connect {
+	font-size: 0.9em;
+	margin-top: 50px;
+}
+
+.container-fluid {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	color: #FFFFFF;
+	background-color: #32323D;
+	width: 100%;
+	height: 100px;
+}
+
+.create {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.info_perso {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.list-group {
+	padding: 20px 50px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	margin-top: 20px;
+	border-radius: 50%;
+	box-shadow: 10px 5px 5px #000;
+}
+
+#auctionlist {
+	
+}
+
+#categorie {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#compte {
+	margin-top: 50px;
+	padding: 20px 100px;
+}
+
+#connexion {
+	margin: 20px;
+	padding: 15px 25px;
+}
+
+#create {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#createbutton {
+	width: 100px;
+	height: 50px;
+	margin-left: 80px;
+}
+
+#deletebutton {
+	text-align: right;
+	margin-top: 10px;
+	margin-left: 800px;
+	margin-bottom: 100px;
+}
+
+#identifiant {
+	padding-top: 100px;
+}
+
+#mdpOubli {
+	font-size: 0.8em;
+	color: #155865;
+	padding: 10px;
+	text-decoration: underline;
+}
+
+#modifier {
+	text-align: center;
+}
+
+#modifierButton {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding: 20px 100px;
+}
+
+#photoArticle {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+#preview{
+	width: 500px;
+	heigth: 500px;
+}
+
+#recherche {
+	padding: 20px;
+	margin-top: 50px;
+}
+
+#recordbutton{
+	text-align:center;
+	padding: 30px 60px;
+	
+}
+
+#souvenir {
+	font-size: 0.8em;
+	margin-top: 20px;
+}
+
+.boutonMagique {
+	background: transparent;
+	border: none !important;
+	font-size: 0;
+	height:200px;
+    width:200px;
+}
+
+.boutonMagique:hover {
+	cursor:pointer;
+}
+
+@media ( min-width : 768px) {
+	.navbar-nav {
+		vertical-align: center;
+	}
+	.navbar-inverse .navbar-nav>li>a {
+		font-size: 40px;
+	}
+}
